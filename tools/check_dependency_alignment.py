@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Commercial license available
+# © Concepts 1996–2026 Miroslav Šotek. All rights reserved.
+# © Code 2020–2026 Miroslav Šotek. All rights reserved.
+# ORCID: 0009-0009-3560-0851
+# Contact: www.anulum.li | protoscience@anulum.li
+# FIELD-OPS-WITNESS — dependency alignment command
+
+"""Compare complete locked tools, installed producers and actual native configuration."""
+
+from field_validation.cli import check_main
+from field_validation.dependencies import validate_dependencies
+
+raise SystemExit(check_main("dependency_alignment", validate_dependencies))
