@@ -17,7 +17,7 @@ from field_validation.inputs import read_file, read_json
 from field_validation.report import Finding, Refusal, Report
 
 # Reviewed independently of the descriptor. Policy updates require code review.
-SCHEMA_SHA256 = "492281e2e49bcef92f587885366f6ea89167b2c4c7a01c51d05db867d1e5c068"
+SCHEMA_SHA256 = "5175781933f902f68e03ae8bdb2c58b1456a0b1a7292dfa6d651991e9a477af2"
 SCHEMA_PATH = "schemas/repository-domain.schema.json"
 METADATA_PATH = "repository-domain.json"
 

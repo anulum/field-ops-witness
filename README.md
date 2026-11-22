@@ -12,6 +12,8 @@ FIELD-OPS-WITNESS — repository governance and provenance
 
 FIELD-OPS-WITNESS defines a boundary for compact field evidence, complete fleet coverage and scoped health and recall judgments. The current implementation provides repository validation tooling. Reporter generation, field ingestion, drift verdicts, recall and health feeds remain planned; no field-monitoring runtime or qualified device capability is installed.
 
+FIELD-OPS-WITNESS is part of the **SC Neuromorphic Computing Systems** group (SC-NEUROMORPHIC-COMPUTING-SYSTEMS). The [group and project map](https://github.com/anulum/sc-neurocore/blob/main/docs/ecosystem.md) shows the whole programme and where this repository sits in it.
+
 The local metadata explicitly records `local_scaffold`, `architecture_only`, empty capabilities, claims and qualified schemas. The planned identifier `field_ops_witness.report.v1` is a declaration, not a registered or accepted evidence format.
 
 ## Validate repository metadata
